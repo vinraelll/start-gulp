@@ -1,3 +1,20 @@
+// check
 body {
   background-color: black;
 }
+
+// global //
+@import './global/reset';
+@import './global/vars';
+@import './global/mixins';
+@import './global/main';
+// global //
+
+// components | common //
+@import './components/common/header';
+@import './components/common/footer';
+// components | common //
+
+// components | home //
+
+// components | home //

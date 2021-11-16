@@ -1,3 +1,5 @@
+// the bundle has last versions of used npm packeges on date of 16/11/2021 //
+
 const {src, dest, watch, parallel, series} = require('gulp');
 
 const scss               = require('gulp-sass');

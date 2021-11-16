@@ -1,0 +1,24 @@
+// colors //
+html:root {
+  --white-color: #fff;
+}
+// colors //
+
+// common //
+%background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+%shadow {
+  box-shadow: 0 6px 47px 3px rgba(37, 37, 37, .05);
+}
+// common //
+
+// fonts //
+%openSans-300 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+// fonts //
