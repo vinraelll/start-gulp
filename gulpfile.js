@@ -1,12 +1,14 @@
-// the bundle has last versions of used npm packeges on date of 16/11/2021 //
+// the bundle has last versions of used npm packeges on date of 12/01/2022 //
+// node.js v.16.13.2
+// gulp CLI v.2.3.0, gulp local v.4.0.2
 
 const {src, dest, watch, parallel, series} = require('gulp');
 
-const scss               = require('gulp-sass');
+const scss               = require('gulp-sass')(require('sass'));
 const concat             = require('gulp-concat');
 const autoprefixer       = require('gulp-autoprefixer');
 const uglify             = require('gulp-uglify');
-const imagemin           = require('gulp-imagemin');
+const imagemin           = import('gulp-imagemin');
 const del                = require('del');
 const browserSync        = require('browser-sync').create()
 
